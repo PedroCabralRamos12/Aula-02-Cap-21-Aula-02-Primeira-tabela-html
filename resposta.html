@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+       
+        
+        table {
+            
+        width: 400px;
+        
+        border-collapse: collapse;
+        }
+
+        tr.linha {
+            background-color: gray;
+        } 
+
+        td {
+            border: 1px solid black;
+            padding: 8px;
+        } 
+
+         td.dado {
+            background-color: yellow;
+        } 
+
+    </style>
+</head>
+
+<body>
+    <h1>exemplo esperando de saida(css)</h1>
+    <!-- É utilzado para criar organização de dados -->
+    <!-- 
+        Hierarquia de tabelas (Simples)
+        <table> Table = tabela
+            <tr> Table Row = Linha da tabela
+            <th> Table Header = cabeçalho 
+            <td> tabela Data = dado da tabela Data = dado da tabela
+        </table>
+    -->
+    <table>
+        <tr class="linha"> 
+            <td>nome do produto</td>
+            <td>categoria</td>
+            <td>preço(R$)</td>
+            <td>estoque</td>
+        </tr>
+        <tr> <!-- Segunda linha -->
+            <td>camiseta</td>
+            <td>vestuario</td>
+            <td>49,90</td>
+            <td>20</td>
+        </tr>
+        <tr> <!-- Terceira linha -->
+            <td>notebook</td>
+            <td>eletronicos</td>
+            <td>3.500,00</td>
+            <td>5</td>
+        </tr>
+        <tr> <!-- Quarta linha -->
+            <td>cafe gourmet</td>
+            <td>alimentos</td>
+            <td>29.90</td>
+            <td>15</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
